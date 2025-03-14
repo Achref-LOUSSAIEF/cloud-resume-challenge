@@ -1,0 +1,180 @@
+html, * {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 400;
+    line-height: 1.5;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #f4f4f4;
+    color: #333;
+    font-size: 16px;
+    padding: 20px;
+}
+
+.container {
+    max-width: 1100px;
+    margin: 0 auto;
+    background: #ffffff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* General Styling */
+header {
+    background-color: #f8f9fa; /* Soft background for header */
+    padding: 30px 20px;
+    border-bottom: 1px solid #ddd;
+  }
+  
+  /* Container to align content */
+  .header-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+  
+  /* Styling the personal info section */
+  .header-info h1 {
+    font-size: 2.5rem;
+    margin-bottom: 5px;
+    color: #333;
+  }
+  
+  .header-info h2 {
+    font-size: 1.25rem;
+    color: #6c757d;
+    margin-bottom: 10px;
+  }
+  
+  .header-info p {
+    font-size: 1rem;
+    color: #007bff;
+  }
+  
+  .header-info a {
+    text-decoration: none;
+    color: #007bff;
+    font-weight: bold;
+  }
+  
+  .header-info a:hover {
+    text-decoration: underline;
+  }
+  
+  /* Visitor Counter Section */
+  .visitor-counter h2 {
+    font-size: 1.5rem;
+    color: #333;
+    margin-bottom: 5px;
+  }
+  
+  .counter-number {
+    font-size: 1.25rem;
+    color: #28a745;
+    font-weight: bold;
+  }
+  
+
+main {
+    padding: 40px 20px;
+}
+
+.projects, .experience, .education, .certifications {
+    margin-bottom: 40px;
+}
+
+h2 {
+    font-size: 32px;
+    color: #ff6600;
+    margin-bottom: 15px;
+    border-bottom: 2px solid #eaeaea;
+    padding-bottom: 5px;
+}
+
+.project, .role, .degree, .certification {
+    background: #f9f9f9;
+    border-radius: 8px;
+    margin-bottom: 20px;
+    padding: 20px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.project h3, .role h3, .degree h3, .certification h3 {
+    font-size: 24px;
+    color: #2d3e50;
+    margin-bottom: 10px;
+}
+
+.project .project-date, .role .role-date, .degree .degree-date {
+    font-size: 14px;
+    color: #777;
+}
+
+.project p, .role p, .degree p {
+    font-size: 15px;
+    color: #555;
+    line-height: 1.6;
+}
+
+.skills {
+    background: #f9f9f9;
+    border-radius: 8px;
+    padding: 30px;
+    margin-top: 30px;
+}
+
+.skills ul {
+    list-style: none;
+    padding: 0;
+}
+
+.skills ul li {
+    font-size: 16px;
+    color: #555;
+    margin-bottom: 10px;
+}
+
+.skills h2 {
+    font-size: 32px;
+    color: #2d3e50;
+    margin-bottom: 20px;
+}
+
+.skills a {
+    color: #ff4b5c;
+    text-decoration: none;
+}
+
+.skills a:hover {
+    text-decoration: underline;
+}
+
+/* Responsive Layout */
+@media (max-width: 768px) {
+    .middle_container {
+        flex-direction: column;
+    }
+
+    .middle_left_container, .middle_right_container {
+        width: 100%;
+    }
+
+    .project h3, .role h3, .degree h3, .certification h3 {
+        font-size: 22px;
+    }
+
+    .skills ul li {
+        font-size: 14px;
+    }
+
+    header h1 {
+        font-size: 36px;
+    }
+
+    header h2 {
+        font-size: 18px;
+    }
+}
