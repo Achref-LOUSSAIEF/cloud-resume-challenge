@@ -1,142 +1,248 @@
 <!DOCTYPE html>
-<html lang="en">
+<html class="no-js" lang="en">
 
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta name="author" content="Achref LOUSSAIEF">
-  <meta name="description" content="Built on AWS, provisioned by custom Terraform IaC, Lambda Function, API Gateway.">
-  <meta name="keywords" content="HTML, CSS, JavaScript, AWS, Terraform, Serverless, S3, Static Website, Python, DynamoDB">
-  <title>Achref LOUSSAIEF | Welcome to my world</title>
-  <link rel="stylesheet" href="styles.css" media="all">
-  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
-  <script src="index.js"></script>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+        integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="./styles.css">
+    <script src="index.js"></script>
+
+    <title>Achref LOUSSAIEF - Resume</title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <style></style>
 </head>
 
 <body>
-
-  <div class="container">
     <header>
-      <div class="header-container">
-        <section class="header-info">
-          <h1>Achref LOUSSAIEF</h1>
-          <h2>Cloud Enthusiast &nbsp;&nbsp;|&nbsp;&nbsp; Aspiring Engineer</h2>
-          <p>
-            Paris, France | 
-            <a href="mailto:achref.loussaief@telecom-sudparis.eu">achref.loussaief@telecom-sudparis.eu</a>
-          </p>
-        </section>
-    
-        <section class="visitor-counter">
-          <h2>Website Visitors</h2>
-          <p id="counter">👀 Views: Loading...</p>
-        </section>
-      </div>          
+        <nav class="navbar">
+            <a href="#" class="navbar-btn-1">Home</a>
+            <ul class="nav-menu">
+                <li class="navbar-btn-1">
+                    <a href="#footer" class="nav-link">Contact</a>
+                </li>
+                <li class="navbar-btn-2">
+                    <a href="./resume/MY_CV.pdf" target="_blank" class="nav-link">Resume (pdf)</a>
+                </li>
+            </ul>
+            <div class="hamburger">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+        </nav>
     </header>
+    <article class="wrapper">
 
-    <main>
-      <section class="projects">
-        <h2>Projects</h2>
+        <section class="section-profile">
+            <h1 class="section-profile-h1">Hi, <span class="section-profile-h1-sub-h1">I'm Achref LOUSSAIEF</span></h1>
+              <section class="visitor-counter">
+                <p id="counter">and this page has been viewed <span id="visitors" class="viewers-count-tag"></span>times :)</p>
+              </section>
+        </section>
 
-        <article class="project">
-          <h3>Cloud Resume Challenge <span class="project-date">| Mar 2025</span></h3>
-          <p>Built a static website using various AWS services like S3, Lambda, DynamoDB, API Gateway, CloudFront, and more.</p>
-          <P>The infrastructure is managed with Terraform IaC. CI/CD pipelines using GitHub Actions are implemented for testing and deployment.</p>
-          <p>See the code in my <a href="https://github.com/Achref-LOUSSAIEF/cloud-resume-challenge" target="_blank">GitHub Repo</a>. More details at <a href="https://cloudresumechallenge.dev/docs/the-challenge/aws/" target="_blank">Cloud Resume Challenge</a>.</p>
-        </article>
+        <section class="section-profile section-container">
+            <h2>Profile</h2>
+            <div class="section-content">
+                <p>
+                    I'm a student at télécom SudParis with a passion in Cloud and networking. 
+                    I enjoy learning about cloud platforms such as AWS, Azure, and Google Cloud.
+                    I like to build infrastructure using cloud services.
 
-        <article class="project">
-          <h3>High Availability Web Services <span class="project-date">| Feb 2025</span></h3>
-          <p>Deployment and management of high availability web services with Docker and Kubernetes.</p>
-          <p>Creation and containerization of a Flask application with MongoDB using Docker Compose.</p>
-          <p>Setting up an Nginx load balancer to distribute the load between multiple instances.</p>
-          <P>Deployment of applications on a Kubernetes cluster with resource and service management (ClusterIP, NodePort, Ingress).</P>
-          <P> Implementation of liveness probes to ensure the resilience of services.</P>
-          <p>See the code in my <a href="https://github.com/ComplexNetTSP/kubernetes-LAshref" target="_blank">GitHub Repo</a></p>
-        </article>
+                </p>
+            </div>
+        </section>
 
-        <article class="project">
-          <h3>Automation of Migration Workflows Between Cloud Providers <span class="project-date">| Feb 2025 – Present</span></h3>
-          <p>Analysis of TOSCA orchestrators, such as Cloudify, for their ability to automate application migration between different cloud providers.</p> 
-          <p>Proposal and development of an automated solution covering the entire migration process, from user request to actual migration execution.</p>
-          <p>Implementation and practical testing on real migration cases, including from AWS to GCP and AWS to Azure.</p>
-          <p> Use of Apache Airflow for automating and efficiently executing processes.</p>
-        </article>
-      </section>
+        <section class="section-skills section-container">
+            <h2>Skills</h2>
+            <div class="section-content">
+                <ul>
+                    <li>
+                        Cloud platforms: <strong>AWS</strong>
+                    </li>
+                    <li>
+                        Iac: <strong>Aws CloudFormation, Terraform</strong>
+                    </li>
+                    <li>
+                        Technologies: <strong>Docker, Kubernetes</strong>
+                    </li>                    
+                    <li>
+                        Programming: <strong>HTML, CSS, Python</strong>
+                    </li>
+                    <li>
+                        Operating System: <strong>Windows, Linux (ubuntu)</strong>
+                    </li>
+                </ul>
+            </div>
+        </section>
 
-      <section class="experience">
-        <h2>Professional Experience</h2>
+        <section class="section-experience section-container">
+            <h2>Experience</h2>
+            <div class="section-content">
+                <div class="section-exp">
+                    <h3>Software Internship</h3>
+                    <a href="https://lab-engineering.actia.tn/actia-engineering-services/" target="_blank">Actia Engineering Services</a> Tunisia
+                    <br> July 2023 – August 2024
+                    <ul>
+                        <li>Enhancement of a database for autonomous systems.</li>
+                        <li>Integration of camera and radar sensors into a ROS environment on Linux using NVIDIA Jetson Nano, specialized in artificial intelligence.</li>
+                        <li>Collection and management of sensor data for the development of autonomous systems and robotic vehicles.</li>
+                        <li>Design of a database to efficiently store sensory data for applications in machine learning, autonomous navigation, and perception.</li>
+                    </ul>
+                </div>
+        </section>
 
-        <article class="role">
-          <h3>Intern @ Actia ES <span class="role-date">(July 2023 – August 2024)</span></h3>
-          <p>Enhancement of a database for autonomous systems.</p>
-          <p>Integration of camera and radar sensors into a ROS environment on Linux using NVIDIA Jetson Nano, specialized in artificial intelligence.</p>
-          <p>Collection and management of sensor data for the development of autonomous systems and robotic vehicles.</p>
-          <P>Design of a database to efficiently store sensory data for applications in machine learning, autonomous navigation, and perception.</P>
-        </article>
-      </section>
+        <section class="section-certification section-container">
+            <h2>Certifications</h2>
+            <div class="section-content">
+                <ul>
+                    <li>
+                        AWS Cloud Quest: Cloud Practitioner <a
+                            href="https://www.credly.com/badges/242ad1be-1a27-47f5-80b9-ad44a0bd5103/public_url"
+                            target="_blank"><i class="fa-solid fa-up-right-from-square fa-xs"
+                                style="color:#b3b3b3;"></i></a>
+                    </li>
+                    <li>
+                        AWS cloud practitioner: Course by KodeKloud <a
+                            href="https://certificates.kodekloud.com/67a9d951-f0d4-451b-a1e1-0824b84cc4b9/6b23dccf-ebef-47fc-8337-e42305d19ac1/e836645f-cf6a-4ea5-b864-fa356790c995.pdf"
+                            target="_blank"><i class="fa-solid fa-up-right-from-square fa-xs"
+                                style="color:#b3b3b3;"></i></a>
+                    </li>
+                    <li>
+                        Introduction to Apache Airflow in Python : Course by DataCamp<a
+                            href="https://www.datacamp.com/statement-of-accomplishment/course/89a44e72e4e9db406c1d7437ddc877d15b677e7f?raw=1" target="_blank"><i
+                                class="fa-solid fa-up-right-from-square fa-xs" style="color:#b3b3b3;"></i></a>
+                    </li>
+                    <li>
+                        Object-Oriented Data Structures in C++ : Course by Coursera <a
+                            href="https://www.coursera.org/account/accomplishments/verify/7E6PA2EGDRTJ"
+                            target="_blank"><i class="fa-solid fa-up-right-from-square fa-xs"
+                                style="color:#b3b3b3;"></i></a>
+                    </li>
+                </ul>
+            </div>
+        </section>
 
-      <section class="education">
-        <h2>Education</h2>
+        <section class="section-project section-container">
+            <h2>Projects</h2>
+            <div class="section-content">
+              <ul>
+                <li>
+                    <h3>Cloud Resume Challenge <span class="project-date">| Mar 2025</span></h3>
+                </li>
+                <ul>
+                    <li>
+                        <p><span class="project-tag-1">Technologies used:</span> AWS S3, Lambda, DynamoDB, API Gateway, CloudFront, Terraform, GitHub Actions.</p>
+                    </li>
+                    <li>
+                        <p>Built a static website using various AWS services like S3, Lambda, DynamoDB, API Gateway, CloudFront, and more.</p>
+                    </li>
+                    <li>
+                        <p>The infrastructure is managed with Terraform IaC. CI/CD pipelines using GitHub Actions are implemented for testing and deployment.</p>
+                    </li>
+                    <li>
+                        <a href="https://github.com/Achref-LOUSSAIEF/cloud-resume-challenge" target="_blank">Project source code - GitHub</a>
+                        <i class="fa-solid fa-up-right-from-square fa-xs" style="color:#b3b3b3;"></i>
+                    </li>
+                    <li>
+                        <a href="https://cloudresumechallenge.dev/docs/the-challenge/aws/" target="_blank">More details - Cloud Resume Challenge</a>
+                        <i class="fa-solid fa-up-right-from-square fa-xs" style="color:#b3b3b3;"></i>
+                    </li>
+                </ul>
+            </ul>     
+            <br>       
+                <ul>
+                  <li>
+                      <h3>High Availability Web Services <span class="project-date">| Feb 2025</span></h3>
+                  </li>
+                  <ul>
+                      <li>
+                          <p><span class="project-tag-1">Technologies used:</span> Docker, Kubernetes, Flask, MongoDB, Nginx, Kubernetes Ingress, ClusterIP, NodePort.</p>
+                      </li>
+                      <li>
+                          <p>Deployment and management of high availability web services with Docker and Kubernetes.</p>
+                      </li>
+                      <li>
+                          <p>Creation and containerization of a Flask application with MongoDB using Docker Compose.</p>
+                      </li>
+                      <li>
+                          <p>Setting up an Nginx load balancer to distribute the load between multiple instances.</p>
+                      </li>
+                      <li>
+                          <p>Deployment of applications on a Kubernetes cluster with resource and service management (ClusterIP, NodePort, Ingress).</p>
+                      </li>
+                      <li>
+                          <p>Implementation of liveness probes to ensure the resilience of services.</p>
+                      </li>
+                      <li>
+                          <a href="https://github.com/ComplexNetTSP/kubernetes-LAshref" target="_blank">Project source code - GitHub</a>
+                          <i class="fa-solid fa-up-right-from-square fa-xs" style="color:#b3b3b3;"></i>
+                      </li>
+                  </ul>
+              </ul>
+              <br>
+              <ul>
+                <li>
+                    <h3>Automation of Migration Workflows Between Cloud Providers <span class="project-date">| Feb 2025 – Present</span></h3>
+                </li>
+                <ul>
+                    <li>
+                        <p><span class="project-tag-1">Technologies used:</span> TOSCA, Cloudify, AWS, GCP, Azure, Apache Airflow.</p>
+                    </li>
+                    <li>
+                        <p>Analysis of TOSCA orchestrators, such as Cloudify, for their ability to automate application migration between different cloud providers.</p> 
+                    </li>
+                    <li>
+                        <p>Proposal and development of an automated solution covering the entire migration process, from user request to actual migration execution.</p>
+                    </li>
+                    <li>
+                        <p>Implementation and practical testing on real migration cases, including from AWS to GCP and AWS to Azure.</p>
+                    </li>
+                    <li>
+                        <p>Use of Apache Airflow for automating and efficiently executing processes.</p>
+                    </li>
+                </ul>
+            </ul>            
+            </div>
+            
+        </section>
 
-        <article class="degree">
-          <h3>Engineer @ Telecom SudParis <span class="degree-date">(Sept 2024 – Sept 2026)</span></h3>
-          <p>Double Degree Diploma</p>
-        </article>
+        <section class="section-education section-container">
+            <h2>Education</h2>
+            <div class="section-content">
+                <h3>General Engineering</h3>
+                <a href="https://www.telecom-sudparis.eu/" target="_blank">Télécom SudParis</a> (Paris, france)
+                <br> 2024-2026
+                <h3>ICT Engineering</h3>
+                <a href="https://www.supcom.tn/" target="_blank">Higher School of Communication of Tunis</a> (Tunis, Tunisia)
+                <br> 2022 - 2024
+                <h3>Pre-engineering Student</h3>
+                <a href="http://www.ipeit.rnu.tn/" target="_blank">
+                    Tunis Preparatory Engineering Institute
+                    </a> (Tunis, Tunisia)
+                <br> 2020 - 2022
+            </div>
+        </section>
 
-        <article class="degree">
-          <h3>ICT Engineer @ SUPCOM <span class="degree-date">(Sept 2022 – June 2024)</span></h3>
-        </article>
-
-        <article class="degree">
-          <h3>Pre-engineering Student @ IPEIT <span class="degree-date">(Sept 2020 – July 2022)</span></h3>
-        </article>
-      </section>
-
-
-      <section class="certifications">
-        <h2>CERTIFICATIONS</h2>
-
-        <article class="certification">
-          <h3><a href="https://www.credly.com/badges/242ad1be-1a27-47f5-80b9-ad44a0bd5103/public_url" target="_blank">AWS Cloud Quest: Cloud Practitioner </a></h3>
-        </article>
-
-        <article class="certification">
-          <h3><a href="https://certificates.kodekloud.com/67a9d951-f0d4-451b-a1e1-0824b84cc4b9/6b23dccf-ebef-47fc-8337-e42305d19ac1/e836645f-cf6a-4ea5-b864-fa356790c995.pdf" target="_blank">AWS cloud practitioner: Course by KodeKloud </a></h3>
-        </article>
-
-        <article class="certification">
-          <h3><a href="https://www.datacamp.com/statement-of-accomplishment/course/89a44e72e4e9db406c1d7437ddc877d15b677e7f?raw=1" target="_blank">Introduction to Apache Airflow in Python : Course by DataCamp </a></h3>
-        </article>
-
-        <article class="certification">
-          <h3><a href="https://www.coursera.org/account/accomplishments/verify/7E6PA2EGDRTJ" target="_blank">Object-Oriented Data Structures in C++ : Course by Coursera </a></h3>
-        </article>
-
-      </section>
-
-      <section class="skills">
-        <h2>Skills</h2>
-        <ul>
-          <li>AWS | Cloud</li>
-          <li>Apache Airflow</li>
-          <li>Git | GitHub Actions</li>
-          <li>Terraform</li>
-          <li>YAML</li>
-          <li>Docker</li>
-          <li>Linux</li>
-          <li>Kubernetes</li>
-          <li>Python</li>
-          <li>AWS Lambda | Serverless</li>
-          <li>AWS S3</li>
-          <li>AWS CloudFormation</li>
-          <li>Helm</li>
-          <li>AWS DynamoDB</li>
-        </ul>
-      </section>
-
-    </main>
-  </div>
+    </article>
+    <footer class="footer" id="footer">
+        <div class="footer-container">
+            <h2>Contact</h2>
+            <ul>
+                <li>
+                    <a href="mailto:achref.loussaief@telecom-sudparis.eu"><i class="fa-solid fa-envelope"></i>Mail</a>
+                </li>
+                <li>
+                    <a href="https://www.linkedin.com/in/achref-loussaief-4b9ab732a/" target="_blank"><i
+                            class="fa-brands fa-linkedin"></i>LinkedIn</a>
+                </li>
+                <li>
+                    <a href="https://github.com/Achref-LOUSSAIEF" target="_blank"><i class="fa-brands fa-github"></i>GitHub</a>
+                </li>
+            </ul>
+        </div>
+    </footer>
 </body>
-
-</html>
