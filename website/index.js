@@ -36,12 +36,16 @@ document.querySelectorAll('a[href^="#"]').forEach(anchor => {
 // This function fetches the visitor count and updates the HTML content
 function updateCounter() {
     fetch('https://odoetmt010.execute-api.us-east-1.amazonaws.com/')
-      .then(res => res.json())
-      .then(res => {
-        console.log("API Response:", res); // Debugging
-        document.getElementById("counter").innerHTML = `👀 Views: ${res.visitor_count}`;
-      })
-      .catch(error => console.error("Fetch Error:", error));
+  .then(res => res.json())
+  .then(res => {
+    console.log("API Response:", res);
+    if (document.getElementById("counter")) {
+      document.getElementById("counter").innerHTML = `👀 Views: ${res.visitor_count}`;
+    } else {
+      console.error("Element with ID 'counter' not found!");
+    }
+  })
+  .catch(error => console.error("Fetch Error:", error));
   }
   
   // Wait for the DOM to load before calling the function
