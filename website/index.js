@@ -39,11 +39,10 @@ function updateCounter() {
       .then(res => res.json())
       .then(res => {
         console.log("API Response:", res); // Debugging
-        document.getElementById("visitors").innerHTML = res.visitor_count;
+        document.getElementById("counter").innerHTML = `👀 Views: ${res.visitor_count}`;
       })
       .catch(error => console.error("Fetch Error:", error));
-}
-
+  }
   
   // Wait for the DOM to load before calling the function
   document.addEventListener('DOMContentLoaded', function() {
