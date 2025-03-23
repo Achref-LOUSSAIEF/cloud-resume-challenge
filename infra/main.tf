@@ -95,6 +95,7 @@ resource "aws_lambda_function" "cloud_resume_api" {
     log_format = "Text"
     log_group  = "/aws/lambda/cloud-resume-api"
   }
+  filename = "cloud-resume-api-60291957-1958-4dbb-8222-33615f7c2cba.zip"
 }
 
 
