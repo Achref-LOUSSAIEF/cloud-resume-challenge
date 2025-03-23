@@ -97,6 +97,7 @@ resource "aws_lambda_function" "cloud_resume_api" {
   }
 }
 
+
 resource "aws_apigatewayv2_api" "visitor_counter" {
   provider        = aws.us_east_1  
   name           = "visitor-counter"
