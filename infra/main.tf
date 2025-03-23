@@ -91,9 +91,6 @@ resource "aws_lambda_function" "cloud_resume_api" {
     size = 512
   }
 
-  filename         = "lambda.zip"
-  source_code_hash = filebase64sha256("lambda.zip")
-
   logging_config {
     log_format = "Text"
     log_group  = "/aws/lambda/cloud-resume-api"
