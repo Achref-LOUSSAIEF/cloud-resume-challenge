@@ -20,26 +20,34 @@
 <body>
     <header>
         <nav class="navbar">
-            <a href="#" class="navbar-btn-1">Home</a>
+            <a href="#" class="navbar-btn-1" data-en="Home" data-fr="Accueil">Home</a>
             <ul class="nav-menu">
                 <li class="navbar-btn-1">
-                    <a href="#footer" class="nav-link">Contact</a>
+                    <a href="#footer" class="nav-link" data-en="Contact" data-fr="Contact">Contact</a>
                 </li>
                 <li class="navbar-btn-2">
-                    <a href="./resume/CV.pdf" target="_blank" class="nav-link">Resume (pdf)</a>
+                    <a href="./resume/CV.pdf" target="_blank" class="nav-link" data-en="Resume (pdf)" data-fr="CV (pdf)">Resume (pdf)</a>
                 </li>
             </ul>
+            <div class="language-selector">
+                <select id="languageSelect" onchange="changeLanguage()">
+                    <option value="en">English</option>
+                    <option value="fr">Français</option>
+                </select>
+            </div>
             <div class="hamburger">
                 <span class="bar"></span>
                 <span class="bar"></span>
                 <span class="bar"></span>
             </div>
         </nav>
+        
+        
     </header>
     <article class="wrapper">
 
         <section class="section-profile">
-            <h1 class="section-profile-h1">Hi, <span class="section-profile-h1-sub-h1">I'm Achref LOUSSAIEF</span></h1>
+            <h1 class="section-profile-h1" data-en="Hi, I'm Achref LOUSSAIEF" data-fr="Salut, je suis Achref LOUSSAIEF">Hi, I'm Achref LOUSSAIEF</h1>
             <section class="visitor-counter">
               <p id="counter">👀 Views: Loading...</p>
             </section>

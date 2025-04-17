@@ -52,4 +52,16 @@ function updateCounter() {
   document.addEventListener('DOMContentLoaded', function() {
     updateCounter();
   });
-  
+  function changeLanguage() {
+    const language = document.getElementById("languageSelect").value;
+    const elements = document.querySelectorAll('[data-en]'); // Select all elements with the data-en attribute
+
+    elements.forEach(element => {
+        // Change text content based on selected language
+        if (language === "fr") {
+            element.textContent = element.getAttribute("data-fr");
+        } else {
+            element.textContent = element.getAttribute("data-en");
+        }
+    });
+}

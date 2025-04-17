@@ -105,6 +105,56 @@ header {
     transition: all 0.3s ease-in-out;
     background-color: white;
 }
+/* Language Selector Styling */
+.language-selector {
+    display: inline-block;
+    margin-left: 20px; /* Adjust this spacing to fit your design */
+}
+
+.language-selector select {
+    background-color: transparent;
+    border: 2px solid var(--highlight-color);
+    color: var(--white-text-color);
+    font-size: 14px;
+    padding: 8px 16px; /* Increase padding for a more comfortable size */
+    cursor: pointer;
+    transition: all 0.3s ease; /* Smooth transition for all changes */
+    text-transform: uppercase;
+    border-radius: 5px; /* Rounded corners for a softer look */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Subtle shadow for a lift effect */
+}
+
+/* Focus state for the select dropdown */
+.language-selector select:focus {
+    outline: none;
+    border-color: var(--hover-color);
+    background-color: rgba(255, 255, 255, 0.1); /* Subtle background change when focused */
+    box-shadow: 0 0 6px var(--hover-color); /* Shadow to highlight focus */
+}
+
+/* Hover effect for select dropdown */
+.language-selector select:hover {
+    border-color: var(--hover-color);
+    background-color: rgba(255, 255, 255, 0.2); /* Hover effect */
+}
+
+/* Styling for the selected option to make it clearer */
+.language-selector select option:checked {
+    background-color: var(--highlight-color); /* Background color for selected option */
+    color: #333; /* Change text color to a dark shade for better contrast */
+}
+
+/* Hover effect for individual options */
+.language-selector select option:hover {
+    background-color: rgba(255, 255, 255, 0.2); /* Slightly darker background on hover */
+    color: var(--highlight-color); /* Change text color on hover to make it stand out */
+}
+
+/* Added a slightly more visible border for better focus visibility */
+.language-selector select option {
+    padding: 8px 10px; /* Added padding for options to make them easier to select */
+}
+
 
 
 /* Section */
