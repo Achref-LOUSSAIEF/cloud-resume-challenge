@@ -11,7 +11,7 @@
     <link rel="stylesheet" href="./styles.css">
     <script src="index.js"></script>
 
-    <title>Achref LOUSSAIEF - Resume</title>
+    <title>Achref LOUSSAIEF</title>
     <meta name="description" content="">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <style></style>
@@ -20,13 +20,28 @@
 <body>
     <header>
         <nav class="navbar">
-            <a href="#" class="navbar-btn-1" data-en="Home" data-fr="Accueil">Home</a>
+            <a 
+                href="#" class="navbar-btn-1" 
+                data-en="Home" 
+                data-fr="Accueil">
+                Home
+            </a>
             <ul class="nav-menu">
                 <li class="navbar-btn-1">
-                    <a href="#footer" class="nav-link" data-en="Contact" data-fr="Contact">Contact</a>
+                    <a 
+                        href="#footer" class="nav-link" 
+                        data-en="Contact" 
+                        data-fr="Contact">
+                        Contact
+                    </a>
                 </li>
                 <li class="navbar-btn-2">
-                    <a href="./resume/CV.pdf" target="_blank" class="nav-link" data-en="Resume (pdf)" data-fr="CV (pdf)">Resume (pdf)</a>
+                    <a 
+                        href="./resume/CV.pdf" target="_blank" class="nav-link" 
+                        data-en="Resume" 
+                        data-fr="CV">
+                        Resume
+                    </a>
                 </li>
             </ul>
             <div class="language-selector">
@@ -41,299 +56,396 @@
                 <span class="bar"></span>
             </div>
         </nav>
-        
-        
     </header>
     <article class="wrapper">
 
         <section class="section-profile">
-            <h1 class="section-profile-h1" data-en="Hi, I'm Achref LOUSSAIEF" data-fr="Salut, je suis Achref LOUSSAIEF">Hi, I'm Achref LOUSSAIEF</h1>
+            <h1 
+                class="section-profile-h1" 
+                data-en="Hi, I'm Achref LOUSSAIEF" 
+                data-fr="Salut, je suis Achref LOUSSAIEF">
+                Hi, I'm Achref LOUSSAIEF
+            </h1>
             <section class="visitor-counter">
               <p id="counter">👀 Views: Loading...</p>
             </section>
         </section>
 
         <section class="section-profile section-container">
-            <h2>Profile</h2>
+            <h2 data-en="Profile" 
+            data-fr="Profil">
+            Profile</h2>
             <div class="section-content">
-              <p>
-                I am a second-year engineering student at Télécom SudParis, specializing in cloud infrastructure, automation, and advanced networking systems.
-                Passionate about designing scalable and secure architectures, I have hands-on experience with AWS, Terraform, Kubernetes, and distributed systems.
-                I am actively seeking a work-study opportunity where I can contribute to the design, deployment, and optimization of cloud and network environments.
-              </p>
-            </div>
-          </section>
-          
-
-        <section class="section-skills section-container">
-            <h2>Skills</h2>
-            <div class="section-content">
-                <ul>
-                    <li>
-                        Cloud platforms: <strong>AWS</strong>
-                    </li>
-                    <li>
-                        Iac: <strong>Aws CloudFormation, Terraform</strong>
-                    </li>
-                    <li>
-                        Technologies: <strong>Docker, Kubernetes</strong>
-                    </li>                    
-                    <li>
-                        Programming: <strong>HTML, CSS, Python</strong>
-                    </li>
-                    <li>
-                        Operating System: <strong>Windows, Linux (ubuntu)</strong>
-                    </li>
-                </ul>
+              <p data-en="I am a second-year engineering student at Télécom SudParis, specializing in cloud infrastructure, automation, and advanced networking systems.
+              Passionate about designing scalable and secure architectures, I have hands-on experience with AWS, Terraform, Kubernetes, and distributed systems." 
+              data-fr="Je suis étudiant en deuxième année d'ingénierie à Télécom SudParis, spécialisé dans les infrastructures cloud, l'automatisation et les systèmes de réseaux avancés.
+              Passionné par la conception d'architectures évolutives et sécurisées, j'ai une expérience pratique avec AWS, Terraform, Kubernetes et les systèmes distribués.">
+            </p>
             </div>
         </section>
 
-        <section class="section-experience section-container">
-            <h2>Experience</h2>
+        <section class="section-skills section-container">
+            <h2 data-en="Skills" data-fr="Compétences">Skills</h2>
             <div class="section-content">
-                <div class="section-exp">
-                    <h3>Software Engineering Internship</h3>
-                    <a href="https://lab-engineering.actia.tn/actia-engineering-services/" target="_blank">Actia Engineering Services</a>, Tunisia
-                    <br> July 2023 – August 2023
+                <div class="skills-category">
+                    <h3 data-en="Cloud Platforms" data-fr="Plateformes Cloud">Cloud Platforms</h3>
                     <ul>
-                        <li>Optimized and expanded a database by adding over 10,000 entries for autonomous system development.</li>
-                        <li>Integrated camera and radar sensors into a ROS-based environment on Linux, leveraging NVIDIA Jetson Nano for AI and robotics applications.</li>
-                        <li>Managed and processed sensor data for autonomous vehicle and robotic system development, focusing on perception and data fusion techniques.</li>
-                        <li>Designed and implemented an efficient database schema for storing sensor data, supporting machine learning and autonomous navigation applications.</li>
+                        <li><strong>AWS</strong></li>
+                    </ul>
+                </div>
+                
+                <div class="skills-category">
+                    <h3 data-en="Infrastructure as Code (IaC)" data-fr="Infrastructure as Code (IaC)">Infrastructure as Code (IaC)</h3>
+                    <ul>
+                        <li><strong>AWS CloudFormation</strong></li>
+                        <li><strong>Terraform</strong></li>
+                    </ul>
+                </div>
+        
+                <div class="skills-category">
+                    <h3 data-en="Technologies" data-fr="Technologies">Technologies</h3>
+                    <ul>
+                        <li><strong>Docker</strong></li>
+                        <li><strong>Kubernetes</strong></li>
+                    </ul>
+                </div>
+        
+                <div class="skills-category">
+                    <h3 data-en="Programming Languages" data-fr="Langages de Programmation">Programming Languages</h3>
+                    <ul>
+                        <li><strong>HTML</strong></li>
+                        <li><strong>CSS</strong></li>
+                        <li><strong>Python</strong></li>
+                        <li><strong>Java</strong></li>
+                    </ul>
+                </div>
+        
+                <div class="skills-category">
+                    <h3 data-en="Operating Systems" data-fr="Systèmes d'Exploitation">Operating Systems</h3>
+                    <ul>
+                        <li><strong>Windows</strong></li>
+                        <li><strong>Linux (Ubuntu)</strong></li>
                     </ul>
                 </div>
             </div>
         </section>
         
 
-        <section class="section-certification section-container">
-            <h2>Certifications</h2>
+        <section class="section-experience section-container">
+            <h2 data-en="Experience" data-fr="Expérience">Experience</h2>
             <div class="section-content">
-                <ul>
-                    <li>
-                        AWS Cloud Quest: Cloud Practitioner <a
-                            href="https://www.credly.com/badges/242ad1be-1a27-47f5-80b9-ad44a0bd5103/public_url"
-                            target="_blank"><i class="fa-solid fa-up-right-from-square fa-xs"
-                                style="color:#b3b3b3;"></i></a>
-                    </li>
-                    <li>
-                        AWS cloud practitioner: Course by KodeKloud <a
-                            href="https://certificates.kodekloud.com/67a9d951-f0d4-451b-a1e1-0824b84cc4b9/6b23dccf-ebef-47fc-8337-e42305d19ac1/e836645f-cf6a-4ea5-b864-fa356790c995.pdf"
-                            target="_blank"><i class="fa-solid fa-up-right-from-square fa-xs"
-                                style="color:#b3b3b3;"></i></a>
-                    </li>
-                    <li>
-                        Introduction to Apache Airflow in Python : Course by DataCamp<a
-                            href="https://www.datacamp.com/statement-of-accomplishment/course/89a44e72e4e9db406c1d7437ddc877d15b677e7f?raw=1" target="_blank"><i
-                                class="fa-solid fa-up-right-from-square fa-xs" style="color:#b3b3b3;"></i></a>
-                    </li>
-                    <li>
-                        Object-Oriented Data Structures in C++ : Course by Coursera <a
-                            href="https://www.coursera.org/account/accomplishments/verify/7E6PA2EGDRTJ"
-                            target="_blank"><i class="fa-solid fa-up-right-from-square fa-xs"
-                                style="color:#b3b3b3;"></i></a>
-                    </li>
-                </ul>
+                <div class="section-exp">
+                    <h3 data-en="Software Engineering Internship" data-fr="Stage en ingénierie logicielle">Software Engineering Internship</h3>
+                    <a href="https://lab-engineering.actia.tn/actia-engineering-services/" target="_blank" data-en="Actia Engineering Services" data-fr="Actia Engineering Services">Actia Engineering Services</a>, Tunisia
+                    <br> July 2023 – August 2023
+                    <ul>
+                        <li data-en="Optimized and expanded a database by adding over 10,000 entries for autonomous system development." 
+                        data-fr="Optimisation et expansion d'une base de données en ajoutant plus de 10 000 entrées pour le développement de systèmes autonomes."></li>
+                        <li data-en="Integrated camera and radar sensors into a ROS-based environment on Linux, leveraging NVIDIA Jetson Nano for AI and robotics applications." 
+                        data-fr="Intégration de capteurs caméra et radar dans un environnement ROS sous Linux, en utilisant NVIDIA Jetson Nano pour des applications d'IA et de robotique."></li>
+                        <li data-en="Managed and processed sensor data for autonomous vehicle and robotic system development, focusing on perception and data fusion techniques." 
+                        data-fr="Gestion et traitement des données des capteurs pour le développement de véhicules autonomes et de systèmes robotiques, en se concentrant sur la perception et les techniques de fusion de données."></li>
+                        <li data-en="Designed and implemented an efficient database schema for storing sensor data, supporting machine learning and autonomous navigation applications." 
+                        data-fr="Conception et mise en œuvre d'un schéma de base de données efficace pour stocker les données des capteurs, soutenant les applications d'apprentissage automatique et de navigation autonome."></li>
+                    </ul>
+                </div>
             </div>
         </section>
+
 
         <section class="section-project section-container">
-            <h2>Projects</h2>
+            <h2 data-en="Projects" data-fr="Projets">Projects</h2>
             <div class="section-content">
-              <ul>
-                <li>
-                    <h3>Cloud Resume Challenge <span class="project-date">| Mar 2025</span></h3>
-                </li>
-                <ul>
-                    <li>
-                        <p><span class="project-tag-1">Technologies used:</span> AWS S3, Lambda, DynamoDB, API Gateway, CloudFront, Terraform, GitHub Actions.</p>
-                    </li>
-                    <li>
-                        <p>Built a static website using various AWS services like S3, Lambda, DynamoDB, API Gateway, CloudFront, and more.</p>
-                    </li>
-                    <li>
-                        <p>The infrastructure is managed with Terraform IaC. CI/CD pipelines using GitHub Actions are implemented for testing and deployment.</p>
-                    </li>
-                    <li>
-                        <a href="https://github.com/Achref-LOUSSAIEF/cloud-resume-challenge" target="_blank">Project source code - GitHub</a>
-                        <i class="fa-solid fa-up-right-from-square fa-xs" style="color:#b3b3b3;"></i>
-                    </li>
-                    <li>
-                        <a href="https://cloudresumechallenge.dev/docs/the-challenge/aws/" target="_blank">More details - Cloud Resume Challenge</a>
-                        <i class="fa-solid fa-up-right-from-square fa-xs" style="color:#b3b3b3;"></i>
-                    </li>
-                </ul>
-            </ul>     
-            <br>       
-                <ul>
-                  <li>
-                      <h3>High Availability Web Services <span class="project-date">| Feb 2025</span></h3>
-                  </li>
-                  <ul>
-                      <li>
-                          <p><span class="project-tag-1">Technologies used:</span> Docker, Kubernetes, Flask, MongoDB, Nginx, Kubernetes Ingress, ClusterIP, NodePort.</p>
-                      </li>
-                      <li>
-                          <p>Deployment and management of high availability web services with Docker and Kubernetes.</p>
-                      </li>
-                      <li>
-                          <p>Creation and containerization of a Flask application with MongoDB using Docker Compose.</p>
-                      </li>
-                      <li>
-                          <p>Setting up an Nginx load balancer to distribute the load between multiple instances.</p>
-                      </li>
-                      <li>
-                          <p>Deployment of applications on a Kubernetes cluster with resource and service management (ClusterIP, NodePort, Ingress).</p>
-                      </li>
-                      <li>
-                          <p>Implementation of liveness probes to ensure the resilience of services.</p>
-                      </li>
-                      <li>
-                          <a href="https://github.com/ComplexNetTSP/kubernetes-LAshref" target="_blank">Project source code - GitHub</a>
-                          <i class="fa-solid fa-up-right-from-square fa-xs" style="color:#b3b3b3;"></i>
-                      </li>
-                  </ul>
-              </ul>
-              <br>
-              <ul>
-                <li>
-                    <h3>Automation of Migration Workflows Between Cloud Providers <span class="project-date">| Feb 2025 – Present</span></h3>
-                </li>
-                <ul>
-                    <li>
-                        <p><span class="project-tag-1">Technologies used:</span> TOSCA, Cloudify, AWS, GCP, Azure, Apache Airflow.</p>
-                    </li>
-                    <li>
-                        <p>Analysis of TOSCA orchestrators, such as Cloudify, for their ability to automate application migration between different cloud providers.</p> 
-                    </li>
-                    <li>
-                        <p>Proposal and development of an automated solution covering the entire migration process, from user request to actual migration execution.</p>
-                    </li>
-                    <li>
-                        <p>Implementation and practical testing on real migration cases, including from AWS to GCP and AWS to Azure.</p>
-                    </li>
-                    <li>
-                        <p>Use of Apache Airflow for automating and efficiently executing processes.</p>
-                    </li>
-                </ul>
-            </ul>
-            <br>
-            <ul>
-                <li>
-                    <h3>AWS Hybrid Site-to-Site VPN with BGP <span class="project-date">| Jan. 2025 – March 2025</span></h3>
-                </li>
-                <ul>
-                    <li>
-                        <p><span class="project-tag-1">Technologies used:</span> AWs, BGP, TGW, VPN, IPSec</p>
-                    </li>
-                    <li>
-                        <p>Design and deployment of a highly available dynamic Site-to-Site VPN between an on-premises environment and AWS cloud, 
-                            using BGP (Border Gateway Protocol) for automatic route propagation.</p> 
-                    </li>
-                    <li>
-                        <p>Configuration of AWS Transit Gateway (TGW) VPN attachments and establishment of IPSec tunnels
-                            to ensure secure and scalable hybrid connectivity.</p>
-                    </li>
-                    <li>
-                        <p>Implementation of dynamic BGP routing to ensure fault tolerance, failover management, and network
-                            performance optimization.</p>
-                    </li>
-                    <li>
-                        <p>Conducting connectivity tests and troubleshooting to validate end-to-end encryption and ensure smooth
-                            traffic flow.</p>
-                    </li>
-                </ul>
-                <br>
-                <li>
-                    <h3>GCC: Conference Communication Management <span class="project-date">| Feb. 2025 – Apr. 2025</span></h3>
-                  </li>
-                  <ul>
-                    <li>
-                      <p><span class="project-tag-1">Technologies used:</span> Java, SpotBugs, Checkstyle, GitLab CI/CD</p>
-                    </li>
-                    <li>
-                      <p>Developed a complete Java-based application to manage the submission and peer-review process for a scientific conference, inspired by systems like EasyChair and HotCRP.</p>
-                    </li>
-                    <li>
-                      <p>Implemented user roles and workflows for authors, reviewers, and the program chair, including paper submissions, review assignments, decision tracking, and final version uploads.</p>
-                    </li>
-                    <li>
-                      <p>Managed different conference phases (submission, review, revision) through strict deadline enforcement and role-based access logic.</p>
-                    </li>
-                    <li>
-                      <p>Added functionality for generating and sending real-time notifications to authors, reviewers, and the program chair regarding submission updates, reviews, and decisions.</p>
-                    </li>
-                    <li>
-                      <p>Ensured software completeness through full documentation, automated unit testing, static analysis with SpotBugs and Checkstyle, and continuous integration using GitLab CI/CD pipelines.</p>
-                    </li>
-                  </ul>
-                  
-            </ul>              
+                <!-- Cloud Resume Challenge -->
+                <div class="section-project-item">
+                    <h3 data-en="Cloud Resume Challenge" data-fr="Cloud Resume Challenge">
+                        Cloud Resume Challenge <span class="project-date">| Mar 2025</span>
+                    </h3>
+                    <ul>
+                        <li>
+                            <p><span class="project-tag-1">Technologies used:</span> AWS S3, Lambda, DynamoDB, API Gateway, CloudFront, Terraform, GitHub Actions.</p>
+                        </li>
+                        <li>
+                            <p>Built a static website using various AWS services like S3, Lambda, DynamoDB, API Gateway, CloudFront, and more.</p>
+                        </li>
+                        <li>
+                            <p>The infrastructure is managed with Terraform IaC. CI/CD pipelines using GitHub Actions are implemented for testing and deployment.</p>
+                        </li>
+                        <li>
+                            <a href="https://github.com/Achref-LOUSSAIEF/cloud-resume-challenge" target="_blank" aria-label="View Cloud Resume Challenge source code - GitHub">Project source code - GitHub</a>
+                            <i class="fa-solid fa-up-right-from-square fa-xs"></i>
+                        </li>
+                        <li>
+                            <a href="https://cloudresumechallenge.dev/docs/the-challenge/aws/" target="_blank" aria-label="More details about Cloud Resume Challenge">More details - Cloud Resume Challenge</a>
+                            <i class="fa-solid fa-up-right-from-square fa-xs"></i>
+                        </li>
+                    </ul>
+                </div>
+        
+                <!-- High Availability Web Services -->
+                <div class="section-project-item">
+                    <h3 data-en="High Availability Web Services" data-fr="Services Web Haute Disponibilité">
+                        High Availability Web Services <span class="project-date">| Feb 2025</span>
+                    </h3>
+                    <ul>
+                        <li>
+                            <p><span class="project-tag-1">Technologies used:</span> Docker, Kubernetes, Flask, MongoDB, Nginx, Kubernetes Ingress, ClusterIP, NodePort.</p>
+                        </li>
+                        <li>
+                            <p>Deployment and management of high availability web services with Docker and Kubernetes.</p>
+                        </li>
+                        <li>
+                            <p>Creation and containerization of a Flask application with MongoDB using Docker Compose.</p>
+                        </li>
+                        <li>
+                            <p>Setting up an Nginx load balancer to distribute the load between multiple instances.</p>
+                        </li>
+                        <li>
+                            <p>Deployment of applications on a Kubernetes cluster with resource and service management (ClusterIP, NodePort, Ingress).</p>
+                        </li>
+                        <li>
+                            <p>Implementation of liveness probes to ensure the resilience of services.</p>
+                        </li>
+                        <li>
+                            <a href="https://github.com/ComplexNetTSP/kubernetes-LAshref" target="_blank" aria-label="View High Availability Web Services source code - GitHub">Project source code - GitHub</a>
+                            <i class="fa-solid fa-up-right-from-square fa-xs"></i>
+                        </li>
+                    </ul>
+                </div>
+        
+                <!-- Automation of Migration Workflows -->
+                <div class="section-project-item">
+                    <h3 data-en="Automation of Migration Workflows Between Cloud Providers" data-fr="Automatisation des flux de migration entre les fournisseurs de cloud">
+                        Automation of Migration Workflows Between Cloud Providers <span class="project-date">| Feb 2025 – Present</span>
+                    </h3>
+                    <ul>
+                        <li>
+                            <p><span class="project-tag-1">Technologies used:</span> TOSCA, Cloudify, AWS, GCP, Azure, Apache Airflow.</p>
+                        </li>
+                        <li>
+                            <p>Analysis of TOSCA orchestrators, such as Cloudify, for their ability to automate application migration between different cloud providers.</p>
+                        </li>
+                        <li>
+                            <p>Proposal and development of an automated solution covering the entire migration process, from user request to actual migration execution.</p>
+                        </li>
+                        <li>
+                            <p>Implementation and practical testing on real migration cases, including from AWS to GCP and AWS to Azure.</p>
+                        </li>
+                        <li>
+                            <p>Use of Apache Airflow for automating and efficiently executing processes.</p>
+                        </li>
+                    </ul>
+                </div>
+        
+                <!-- AWS Hybrid Site-to-Site VPN with BGP -->
+                <div class="section-project-item">
+                    <h3 data-en="AWS Hybrid Site-to-Site VPN with BGP" data-fr="VPN hybride Site-à-Site AWS avec BGP">
+                        AWS Hybrid Site-to-Site VPN with BGP <span class="project-date">| Jan. 2025 – March 2025</span>
+                    </h3>
+                    <ul>
+                        <li>
+                            <p><span class="project-tag-1">Technologies used:</span> AWS, BGP, TGW, VPN, IPSec</p>
+                        </li>
+                        <li>
+                            <p>Design and deployment of a highly available dynamic Site-to-Site VPN between an on-premises environment and AWS cloud, using BGP for automatic route propagation.</p>
+                        </li>
+                        <li>
+                            <p>Configuration of AWS Transit Gateway (TGW) VPN attachments and establishment of IPSec tunnels to ensure secure and scalable hybrid connectivity.</p>
+                        </li>
+                        <li>
+                            <p>Implementation of dynamic BGP routing to ensure fault tolerance, failover management, and network performance optimization.</p>
+                        </li>
+                        <li>
+                            <p>Conducting connectivity tests and troubleshooting to validate end-to-end encryption and ensure smooth traffic flow.</p>
+                        </li>
+                    </ul>
+                </div>
+        
+                <!-- GCC Conference Communication Management -->
+                <div class="section-project-item">
+                    <h3 data-en="GCC: Conference Communication Management" data-fr="GCC: Gestion de la communication pour conférences">
+                        GCC: Conference Communication Management <span class="project-date">| Feb. 2025 – Apr. 2025</span>
+                    </h3>
+                    <ul>
+                        <li>
+                            <p><span class="project-tag-1">Technologies used:</span> Java, SpotBugs, Checkstyle, GitLab CI/CD</p>
+                        </li>
+                        <li>
+                            <p>Developed a complete Java-based application to manage the submission and peer-review process for a scientific conference, inspired by systems like EasyChair and HotCRP.</p>
+                        </li>
+                        <li>
+                            <p>Implemented user roles and workflows for authors, reviewers, and the program chair, including paper submissions, review assignments, decision tracking, and final version uploads.</p>
+                        </li>
+                        <li>
+                            <p>Managed different conference phases (submission, review, revision) through strict deadline enforcement and role-based access logic.</p>
+                        </li>
+                        <li>
+                            <p>Added functionality for generating and sending real-time notifications to authors, reviewers, and the program chair regarding submission updates, reviews, and decisions.</p>
+                        </li>
+                        <li>
+                            <p>Ensured software completeness through full documentation, automated unit testing, static analysis with SpotBugs and Checkstyle, and continuous integration using GitLab CI/CD pipelines.</p>
+                        </li>
+                    </ul>
+                </div>
             </div>
-            
         </section>
-
-        <section class="section-education section-container">
-            <h2>Competitions and Extracurricular Activities</h2>
+        
+        <section class="section-competitions section-container">
+            <h2 data-en="Competitions and Extracurricular Activities" 
+            data-fr="Compétitions et Activités Extra-scolaires">
+            Competitions and Extracurricular Activities</h2>
             <div class="section-content">
-          
-              <h3>IMAGIN Week – Youth Mentoring & Intergenerational Engagement</h3>
-              <a href="https://www.telecom-sudparis.eu/evenement/semaine-imagin/" target="_blank">
-                Télécom SudParis
-              </a> (Paris, France)  
-              <br><strong>Winner</strong> – Competition category: Youth Mentoring and Bridging Generations, in collaboration with the Municipality of Corbeil-Essonnes.  
-              <br>Worked on initiatives aimed at empowering young people to take ownership of their communities by engaging them in skill-building and civic projects, fostering intergenerational connections and local development.
-          
-              <h3>Entrepreneurial Projects Challenge</h3>
-              <a href="https://www.telecom-sudparis.eu/actualite/challenge-projets-dentreprendre/" target="_blank">
-                IMT Starter
-              </a> (Paris, France)  
-              <br><strong>2022 – 2024</strong>  
-              <br>Participated in a multidisciplinary innovation and entrepreneurship competition focused on developing viable startup ideas. Collaborated with cross-functional teams to create business models, pitch to experts, and prototype solutions with real-world impact.
-          
-              <h3>PACTE Project – Learning Communication and Teamwork</h3>
-              <a href="https://www.supcom.tn/" target="_blank">
-                Higher School of Communication of Tunis
-              </a> (Tunis, Tunisia)  
-              <br>Engaged in a project-based learning experience designed to enhance soft skills such as communication, collaboration, and leadership.  
-              <br>Delivered workshops on Scratch programming to “Children of the Moon” (children with xeroderma pigmentosum), using technology as a tool for inclusion and education.
-          
+                <div class="section-activity">
+                    <h3 data-en="IMAGIN Week – Youth Mentoring & Intergenerational Engagement" 
+                    data-fr="Semaine IMAGIN – Mentorat des jeunes et engagement intergénérationnel">
+                    IMAGIN Week – Youth Mentoring & Intergenerational Engagement</h3>
+                    <a href="https://www.telecom-sudparis.eu/evenement/semaine-imagin/" target="_blank" 
+                    data-en="Télécom SudParis" 
+                    data-fr="Télécom SudParis">
+                    Télécom SudParis</a> (Paris, France)
+                    <br><strong data-en="Winner" 
+                    data-fr="Gagnant">
+                    Winner</strong> – Competition category: Youth Mentoring and Bridging Generations, in collaboration with the Municipality of Corbeil-Essonnes.
+                    <br>
+                    <p data-en="Worked on initiatives aimed at empowering young people to take ownership of their communities by engaging them in skill-building and civic projects, fostering intergenerational connections and local development." 
+                       data-fr="Travail sur des initiatives visant à autonomiser les jeunes pour qu'ils prennent en main leurs communautés en les impliquant dans des projets de développement de compétences et civiques, favorisant les liens intergénérationnels et le développement local.">
+                    </p>
+                </div>
+        
+                <div class="section-activity">
+                    <h3 data-en="Entrepreneurial Projects Challenge" 
+                    data-fr="Challenge des projets entrepreneuriaux">
+                    Entrepreneurial Projects Challenge</h3>
+                    <a href="https://www.telecom-sudparis.eu/actualite/challenge-projets-dentreprendre/" target="_blank" 
+                    data-en="IMT Starter" 
+                    data-fr="IMT Starter">
+                    IMT Starter</a> (Paris, France)
+                    <p data-en="Participated in a multidisciplinary innovation and entrepreneurship competition focused on developing viable startup ideas. Collaborated with cross-functional teams to create business models, pitch to experts, and prototype solutions with real-world impact."
+                       data-fr="Participation à un concours multidisciplinaire d'innovation et d'entrepreneuriat axé sur le développement d'idées de startups viables. Collaboration avec des équipes interfonctionnelles pour créer des modèles d'affaires, présenter à des experts et prototyper des solutions ayant un impact concret.">
+                    </p>
+                </div>
+        
+                <div class="section-activity">
+                    <h3 data-en="PACTE Project – Learning Communication and Teamwork" 
+                    data-fr="Projet PACTE – Apprentissage de la communication et du travail d'équipe">
+                    PACTE Project – Learning Communication and Teamwork</h3>
+                    <a href="https://www.supcom.tn/" target="_blank" 
+                    data-en="Higher School of Communication of Tunis" 
+                    data-fr="École supérieure de communication de Tunis">
+                    Higher School of Communication of Tunis</a> (Tunis, Tunisia)
+                    <br>
+                    <p data-en="Engaged in a project-based learning experience designed to enhance soft skills such as communication, collaboration, and leadership. Delivered workshops on Scratch programming to 'Children of the Moon' (children with xeroderma pigmentosum), using technology as a tool for inclusion and education."
+                       data-fr="Engagement dans une expérience d'apprentissage par projet visant à renforcer des compétences interpersonnelles telles que la communication, la collaboration et le leadership. Animation d'ateliers de programmation sur Scratch pour les « Enfants de la Lune » (enfants atteints de xéroderma pigmentosum), en utilisant la technologie comme outil d'inclusion et d'éducation.">
+                    </p>
+                </div>
             </div>
-          </section>          
-
+        </section>
+        
         <section class="section-education section-container">
-            <h2>Education</h2>
+            <h2 data-en="Education" 
+            data-fr="Éducation">
+            Education</h2>
             <div class="section-content">
-                <h3>General Engineering</h3>
-                <a href="https://www.telecom-sudparis.eu/" target="_blank">Télécom SudParis</a> (Paris, france)
-                <br> 2024-2026
-                <h3>ICT Engineering</h3>
-                <a href="https://www.supcom.tn/" target="_blank">Higher School of Communication of Tunis</a> (Tunis, Tunisia)
-                <br> 2022 - 2024
-                <h3>Pre-engineering Student</h3>
-                <a href="http://www.ipeit.rnu.tn/" target="_blank">
-                    Tunis Preparatory Engineering Institute
-                    </a> (Tunis, Tunisia)
-                <br> 2020 - 2022
+                <div class="section-degree">
+                    <h3 data-en="General Engineering" 
+                    data-fr="Ingénieur généraliste en technologies du numérique">
+                    General Engineering</h3>
+                    <a href="https://www.telecom-sudparis.eu/" target="_blank" 
+                    data-en="Télécom SudParis" 
+                    data-fr="Télécom SudParis">
+                    Télécom SudParis</a> (Paris, France)
+                    <br><strong data-en="2024-2026" 
+                    data-fr="2024-2026">
+                    2024-2026</strong>
+                </div>
+        
+                <div class="section-degree">
+                    <h3 data-en="ICT Engineering" 
+                    data-fr="Ingénieur en télécommunications">
+                    ICT Engineering</h3>
+                    <a href="https://www.supcom.tn/" target="_blank" 
+                    data-en="Higher School of Communication of Tunis" 
+                    data-fr="École supérieure de communication de Tunis">
+                    Higher School of Communication of Tunis</a> (Tunis, Tunisia)
+                    <br><strong data-en="2022-2024" data-fr="2022-2024">2022 - 2024</strong>
+                </div>
+        
+                <div class="section-degree">
+                    <h3 data-en="Pre-engineering Student" 
+                    data-fr="Classes Préparatoires">
+                    Pre-engineering Student</h3>
+                    <a href="http://www.ipeit.rnu.tn/" target="_blank" 
+                    data-en="Tunis Preparatory Engineering Institute" 
+                    data-fr="Institut Préparatoire aux Études d’Ingénierie de Tunis">
+                    Tunis Preparatory Engineering Institute</a> (Tunis, Tunisia)
+                    <br><strong data-en="2020-2022" data-fr="2020-2022">2020 - 2022</strong>
+                </div>
+            </div>
+        </section>
+        
+        <section class="section-certification section-container">
+            <h2 data-en="Certifications" data-fr="Certifications">Certifications</h2>
+            <div class="section-content">
+                <div class="section-cert">
+                    <ul>
+                        <li>
+                            <div class="certification-item">
+                                <h3 data-en="AWS Cloud Quest: Cloud Practitioner" data-fr="AWS Cloud Quest: Cloud Practitioner">
+                                    AWS Cloud Quest: Cloud Practitioner
+                                </h3>
+                                <a href="https://www.credly.com/badges/242ad1be-1a27-47f5-80b9-ad44a0bd5103/public_url" target="_blank">
+                                    <i class="fa-solid fa-up-right-from-square fa-xs certification-icon"></i>
+                                </a>
+                            </div>                            
+                        </li>
+                        <li>
+                            <div class="certification-item">
+                            <h3 data-en="AWS Cloud Practitioner: Course by KodeKloud" 
+                            data-fr="AWS Cloud Practitioner: Cours par KodeKloud">
+                            AWS Cloud Practitioner: Course by KodeKloud</h3>
+                            <a href="https://certificates.kodekloud.com/67a9d951-f0d4-451b-a1e1-0824b84cc4b9/6b23dccf-ebef-47fc-8337-e42305d19ac1/e836645f-cf6a-4ea5-b864-fa356790c995.pdf" target="_blank">
+                                <i class="fa-solid fa-up-right-from-square fa-xs certification-icon"></i>
+                            </a>
+                            </div>
+                        </li>
+                        <li>
+                            <h3 data-en="Introduction to Apache Airflow in Python: Course by DataCamp" 
+                            data-fr="Introduction à Apache Airflow en Python : Cours par DataCamp">
+                            Introduction to Apache Airflow in Python: Course by DataCamp</h3>
+                            <a href="https://www.datacamp.com/statement-of-accomplishment/course/89a44e72e4e9db406c1d7437ddc877d15b677e7f?raw=1" target="_blank">
+                                <i class="fa-solid fa-up-right-from-square fa-xs certification-icon"></i>
+                            </a>
+                        </li>
+                        <li>
+                            <h3 data-en="Object-Oriented Data Structures in C++: Course by Coursera" 
+                            data-fr="Structures de données orientées objet en C++ : Cours par Coursera">
+                            Object-Oriented Data Structures in C++: Course by Coursera</h3>
+                            <a href="https://www.coursera.org/account/accomplishments/verify/7E6PA2EGDRTJ" target="_blank">
+                                <i class="fa-solid fa-up-right-from-square fa-xs certification-icon"></i>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
             </div>
         </section>
 
     </article>
-    <footer class="footer" id="footer">
-        <div class="footer-container">
-            <h2>Contact</h2>
-            <ul>
-                <li>
-                    <a href="mailto:achref.loussaief@telecom-sudparis.eu"><i class="fa-solid fa-envelope"></i>Mail</a>
-                </li>
-                <li>
-                    <a href="https://www.linkedin.com/in/achref-loussaief-4b9ab732a/" target="_blank"><i
-                            class="fa-brands fa-linkedin"></i>LinkedIn</a>
-                </li>
-                <li>
-                    <a href="https://github.com/Achref-LOUSSAIEF" target="_blank"><i class="fa-brands fa-github"></i>GitHub</a>
-                </li>
-            </ul>
-        </div>
-    </footer>
+        <footer class="footer" id="footer">
+            <div class="footer-container">
+                <h2 data-en="Contact" data-fr="Contact">Contact</h2>
+                <ul>
+                    <li>
+                        <a href="mailto:achref.loussaief@telecom-sudparis.eu"><i class="fa-solid fa-envelope"></i>Mail</a>
+                    </li>
+                    <li>
+                        <a href="https://www.linkedin.com/in/achref-loussaief-4b9ab732a/" target="_blank"><i
+                                class="fa-brands fa-linkedin"></i>LinkedIn</a>
+                    </li>
+                    <li>
+                        <a href="https://github.com/Achref-LOUSSAIEF" target="_blank"><i class="fa-brands fa-github"></i>GitHub</a>
+                    </li>
+                </ul>
+            </div>
+        </footer>
 </body>
+</html>
