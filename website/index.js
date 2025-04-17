@@ -48,20 +48,30 @@ function updateCounter() {
   .catch(error => console.error("Fetch Error:", error));
   }
   
-  // Wait for the DOM to load before calling the function
-  document.addEventListener('DOMContentLoaded', function() {
+// Wait for the DOM to load before calling the functions
+document.addEventListener('DOMContentLoaded', function () {
     updateCounter();
-  });
-  function changeLanguage() {
-    const language = document.getElementById("languageSelect").value;
-    const elements = document.querySelectorAll('[data-en]'); // Select all elements with the data-en attribute
 
+    // Check for saved language preference (optional)
+    const savedLang = localStorage.getItem("language") || "en";
+    document.getElementById("languageSelect").value = savedLang;
+    changeLanguage(savedLang);
+
+    // Add the change listener to the dropdown
+    document.getElementById("languageSelect").addEventListener("change", () => {
+        const selectedLang = document.getElementById("languageSelect").value;
+        localStorage.setItem("language", selectedLang); // Save user preference
+        changeLanguage(selectedLang);
+    });
+});
+
+// Main function to switch language
+function changeLanguage(language) {
+    const elements = document.querySelectorAll('[data-en]');
     elements.forEach(element => {
-        // Change text content based on selected language
-        if (language === "fr") {
-            element.textContent = element.getAttribute("data-fr");
-        } else {
-            element.textContent = element.getAttribute("data-en");
+        const translation = element.getAttribute(`data-${language}`);
+        if (translation) {
+            element.innerHTML = translation; // Use innerHTML for rich content
         }
     });
 }
