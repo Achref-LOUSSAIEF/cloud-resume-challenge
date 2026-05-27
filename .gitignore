@@ -1,2 +1,12 @@
-infra/.terraform/
-infra/.terraform.lock.hcl
+# Local Terraform state (use remote backend instead)
+*.tfstate
+*.tfstate.*
+.terraform/
+.terraform.lock.hcl
+
+# Secrets — never commit these
+terraform.tfvars
+*.auto.tfvars
+
+# Lambda build artifact
+lambda.zip

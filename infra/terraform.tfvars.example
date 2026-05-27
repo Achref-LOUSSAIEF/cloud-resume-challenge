@@ -1,0 +1,3 @@
+acm_certificate_arn = "arn:aws:acm:us-east-1:YOUR_ACCOUNT_ID:certificate/YOUR_CERT_ID"
+lambda_role_arn     = "arn:aws:iam::YOUR_ACCOUNT_ID:role/service-role/cloud-resume-api-role-854lmm7p"
+lambda_source_code_hash = null  # set this when you want to force a Lambda redeploy
